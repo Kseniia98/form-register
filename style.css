@@ -6,9 +6,10 @@ body{
   background-color: rgb(34, 34, 34);
 }
 
-main{
+article{
   margin: 20px auto;
   max-width: 400px;
+  min-width: 350px;
   padding: 40px;
 
   background-color: #F3F2F7;
@@ -62,7 +63,12 @@ input:invalid{
 }
 
 .input-name{
-  width: 49%;
+  width: 150px;
+}
+
+.input-last-name{
+  width: 150px;
+  margin-left: 5%;
 }
 
 .input-login{
