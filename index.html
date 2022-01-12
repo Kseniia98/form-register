@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <h5><hr>  Register  <hr></h5>
+    <h6>Create your account. It's free and only takes a minute.</h6>
+    <form>
+      <fieldset class="name">
+        <input class="input-name" name="firstname" type="text" placeholder="First Name" required>
+        <input class="input-name" name="lastname" type="text" placeholder="Last Name" required>
+      </fieldset>
+      <fieldset class="login">
+        <input class="input-login" name="email" type="email" placeholder="Email" required>
+        <input class="input-login" name="password" type="password" placeholder="Password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$" required>
+        <input class="input-login" type="password" placeholder="Confirm Password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$" required>
+      </fieldset>
+      <input type="checkbox" required> <a href="#"> I accept the Terms of Use & Privacy Policy. </a>
+      <button type="submit">Register Now</button>
+    </form>
+  </main>
+</body>
+</html>
